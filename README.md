@@ -13,5 +13,5 @@ Python implemenatation of fundamental Machine Learning models and algorithm from
 ### Unsupervised Learning
 
 ### Preprocessing
-- [StandarScaler]()
-- [Normalize]()
+- [StandarScaler](ScratchML/transformation/_preprocessing.py)
+- [Normalize](ScratchML/transformation/_preprocessing.py)
