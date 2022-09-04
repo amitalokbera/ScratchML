@@ -5,7 +5,7 @@ Python implemenatation of fundamental Machine Learning models and algorithm from
 
 ## Implemented Algorithms
 ### Supervised Learning
-+ [KNNClassifier]()
++ [KNNClassifier](ScratchML/neighbors/)
     * KNNClassifier
     * KNNRegressor
 
