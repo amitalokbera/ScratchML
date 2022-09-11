@@ -60,7 +60,7 @@ class KNNClassifier:
         return sorted(self.result, key=itemgetter(1))[:self.k]
 
     def predict(self, Xq:list):
-        if self._trained == True:
+        if self._trained:
             self.Xq = np.array(Xq)
             if len(self.Xq) != self.feature_count:
                 raise Exception('Mismatch no. of columns')
