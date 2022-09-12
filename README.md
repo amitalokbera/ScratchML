@@ -8,6 +8,9 @@ Python implemenatation of fundamental Machine Learning models and algorithm from
 + [KNNClassifier](ScratchML/neighbors/)
     * KNNClassifier
     * KNNRegressor
++ [NaiveBayes](ScratchML/naive_bayes/) 
+    * GaussianNB
+    * CategoricalNB
 
 
 ### Unsupervised Learning
@@ -15,3 +18,15 @@ Python implemenatation of fundamental Machine Learning models and algorithm from
 ### Preprocessing
 - [StandarScaler](ScratchML/transformation/_preprocessing.py)
 - [Normalize](ScratchML/transformation/_preprocessing.py)
+
+
+### Metrics
+- [AccuracyScore](ScratchML/metrics/_metrics.py)
+- [ConfusionMatrix](ScratchML/metrics/_metrics.py)
+- [PrecisionScore](ScratchML/metrics/_metrics.py)
+- [RecallScore](ScratchML/metrics/_metrics.py)
+- [F1_Score](ScratchML/metrics/_metrics.py)
+- [LogLoss](ScratchML/metrics/_metrics.py)
+- [R2](ScratchML/metrics/_metrics.py)
+- [MeanAbsoluteError](ScratchML/metrics/_metrics.py)
+- [RMSE](ScratchML/metrics/_metrics.py)
