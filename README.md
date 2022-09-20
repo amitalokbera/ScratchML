@@ -11,6 +11,9 @@ Python implemenatation of fundamental Machine Learning models and algorithm from
 + [NaiveBayes](ScratchML/naive_bayes/) 
     * GaussianNB
     * CategoricalNB
++ [LinearModel](ScratchML/linear_models/) 
+    * LogisticRegression
+    * LinearRegression
 
 
 ### Unsupervised Learning
