@@ -3,3 +3,4 @@ scratch
 Iris.csv
 demo.ipynb
 __pycache__/
+.ipynb_checkpoints/
