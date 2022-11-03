@@ -14,6 +14,8 @@ Python implemenatation of fundamental Machine Learning models and algorithm from
 + [LinearModel](ScratchML/linear_models/) 
     * LogisticRegression
     * LinearRegression
+    * SVM
++ [Decision Tree](ScratchML/trees/) 
 
 
 ### Unsupervised Learning

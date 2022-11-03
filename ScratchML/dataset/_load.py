@@ -13,7 +13,7 @@ class Dataset:
     
     def getData(self):
         if self.name == "tennis":
-            self.df = pd.read_csv("https://gist.githubusercontent.com/DiogoRibeiro7/c6590d0cf119e87c39e31c21a9c0f3a8/raw/4a8e3da267a0c1f0d650901d8295a5153bde8b21/PlayTennis.csv")
+            self.df = pd.read_csv("ScratchML/dataset/tennis.csv")
             if self.encoded:
                 for col in self.df.columns:
                     self.df[col] = self.df[col].astype('category')
@@ -22,7 +22,7 @@ class Dataset:
             else:
                 return self.df.to_numpy()[:,:-1], np.squeeze(self.df.to_numpy()[:,-1:])
         elif self.name == "iris":
-            self.df = pd.read_csv("https://gist.githubusercontent.com/netj/8836201/raw/6f9306ad21398ea43cba4f7d537619d0e07d5ae3/iris.csv")
+            self.df = pd.read_csv("ScratchML/dataset/iris.csv")
             if self.encoded:
                 for col in self.df.columns:
                     if col != 'variety':
